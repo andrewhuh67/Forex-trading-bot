@@ -61,8 +61,8 @@ class TradingTest():
 			last_candle = candles[candle2]['mid']
 			current_candle = candles[item]['mid']
 
-			if float(two_candles_ago['c']) > float(two_candles_ago['o']) and float(last_candle['c'] > float(last_candle['o']))
-				buy(self.lot_size, current_candle)
+			if float(two_candles_ago['c']) > float(two_candles_ago['c']) > float(current_candle['c'])and float(last_candle['c'] > float(last_candle['c']))
+				sell(self.lot_size, current_candle)
 			print(two_candles_ago)
 			print(last_candle)
 			print(current_candle)
