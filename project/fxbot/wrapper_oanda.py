@@ -69,8 +69,10 @@ class TradingTest():
 			print("-------------------------------------------------")
 
 	def buy(lot_size, price):
+		print(lot_size, prize)
 
-
+	def sell(lot_size, price):
+		print(lot_size, prize)
 
 def main():
 	api = OandaAPI()
