@@ -43,6 +43,8 @@ class OandaAPI():
 
 		return r.json()
 
+
+# build this out last, build out the oanda api functions first.
 class TradingTest():
 
 	def __init__(self, lot_size, starting_balance):
@@ -70,6 +72,8 @@ class TradingTest():
 
 	def buy(lot_size, price):
 		print(lot_size, prize)
+
+
 
 	def sell(lot_size, price):
 		print(lot_size, prize)
